@@ -1,0 +1,31 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+.header {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("/img/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.header h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+  color: #fff !important;
+  font-weight: 700;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  letter-spacing: 2px;
+}
+.header h2 span {
+  color: #ea272d;
+  font-size: 26px;
+  position: relative;
+  left: -7px;
+}
