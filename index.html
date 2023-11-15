@@ -9,16 +9,23 @@
   <body>
     <div class="header">
       <h2>Nila <span>.</span></h2>
-      <header-nav>
-        <ul>
-          <li>home</li>
-          <li>menu</li>
-          <li>gallery</li>
-          <li>reservation</li>
-          <li>about</li>
-          <li>contact</li>
+      <div class="header-nav">
+        <ul class="header-nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li class="has-dropdown">
+            <a href="#">Gallery</a>
+            <ul class="dropdown" style="display: none">
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Food</a></li>
+              <li><a href="#">Coffees</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Reservation</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
-      </header-nav>
+      </div>
     </div>
   </body>
 </html>
